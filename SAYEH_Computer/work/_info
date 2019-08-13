@@ -1,0 +1,2081 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech64_10.1c\examples
+T_opt
+VH]zcCI=H4oG=IV=ce8PH40
+04 10 2 work mainmodule df 1
+=1-c48e8fa7cbb7-591b30d0-276-44e8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+T_opt1
+VXQ?TO;aWKiD@Yh9?B:IzU1
+04 10 4 work totaladder arch 1
+=1-c48e8fa7cbb7-591ab2b2-c-385c
+R1
+n@_opt1
+R2
+Z3 dC:\modeltech64_10.1c\examples
+T_opt2
+VY8K]^labj^=f>eN4>2Y[b0
+04 3 4 work sub arch 1
+=1-c48e8fa7cbb7-591ac897-a3-3ecc
+R1
+n@_opt2
+R2
+R3
+Eadd_16
+Z4 w1493706356
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dC:\modeltech64_10.1c\examples\SAYEH_PC
+Z8 8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/add_16.vhd
+Z9 FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/add_16.vhd
+l0
+L4
+VT[nUmhT:h8]G3bWn:OmYa2
+Z10 OL;C;10.1c;51
+32
+Z11 !s108 1494419873.352000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/add_16.vhd|
+Z13 !s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/add_16.vhd|
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+!s100 E?QNRKTFR2Szc3aF4OLh:2
+!i10b 1
+Astructural
+R5
+R6
+DEx4 work 6 add_16 0 22 T[nUmhT:h8]G3bWn:OmYa2
+l21
+L13
+V5D]DOREB:VUS>;]YmF]880
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 `O6hWbJBZf;Vl;;7lNPOL2
+!i10b 1
+Eaddresslogic
+Z16 w1493748562
+Z17 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z18 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R5
+R6
+R7
+Z19 8C:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd
+Z20 FC:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd
+l0
+L6
+VPZ=T[LA9QmmebcTZH_2RF1
+R10
+32
+Z21 !s108 1494918096.269000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd|
+Z23 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd|
+R14
+R15
+!s100 MOJGVZ87KF=b9HbzTfLG:2
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 12 addresslogic 0 22 PZ=T[LA9QmmebcTZH_2RF1
+l28
+L20
+VGm<lXEA6_[QWBYUg=SbBS1
+R10
+32
+R21
+R22
+R23
+R14
+R15
+!s100 e`k>UJnE9g=cP`hA7FiBi1
+!i10b 1
+Eaddressunit
+Z24 w1494276329
+Z25 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R17
+R18
+R5
+R6
+R7
+Z26 8C:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd
+Z27 FC:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd
+l0
+L7
+VX4GfL@bQ>`EjIKIS3Gem30
+R10
+32
+Z28 !s108 1494918097.702000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd|
+Z30 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd|
+R14
+R15
+!s100 zNj;0@j8^ohmR^izJfcEl0
+!i10b 1
+Adataflow
+R25
+R17
+R18
+R5
+R6
+DEx4 work 11 addressunit 0 22 X4GfL@bQ>`EjIKIS3Gem30
+l45
+L17
+VJFacM=YQXXWo[M0B7a>g`3
+R10
+32
+R28
+R29
+R30
+R14
+R15
+!s100 2A4`L<GjEo>]zbgl8N=RD1
+!i10b 1
+Eaddtest
+Z31 w1494417424
+R5
+R6
+R7
+Z32 8C:/Users/Sayepc/Downloads/AZ/adderTestbench.vhdl
+Z33 FC:/Users/Sayepc/Downloads/AZ/adderTestbench.vhdl
+l0
+L5
+VSgedKIzD:h=]=O5R`9TVV0
+R10
+32
+Z34 !s108 1494417426.923000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/adderTestbench.vhdl|
+Z36 !s107 C:/Users/Sayepc/Downloads/AZ/adderTestbench.vhdl|
+R14
+R15
+!s100 5:ZklgJ?4I13fC3CSiWPQ0
+!i10b 1
+Abehaviour
+R5
+R6
+DEx4 work 7 addtest 0 22 SgedKIzD:h=]=O5R`9TVV0
+l30
+L8
+Vz535k6j6m0TAk<?M]LziK2
+R10
+32
+R34
+R35
+R36
+R14
+R15
+!s100 mZJRhVW8MX@_O]0JM4aFJ2
+!i10b 1
+Eaddtestbench
+Z37 w1494417372
+R5
+R6
+R7
+Z38 8C:/Users/Sayepc/Downloads/AZ/gateTestbench.vhdl
+Z39 FC:/Users/Sayepc/Downloads/AZ/gateTestbench.vhdl
+l0
+L7
+VLW:Cm[_1@Y^@A`Fg13eWf2
+R10
+32
+Z40 !s108 1494417988.302000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/gateTestbench.vhdl|
+Z42 !s107 C:/Users/Sayepc/Downloads/AZ/gateTestbench.vhdl|
+R14
+R15
+!s100 ?3i_UCK9FX=GY8WUA9?j02
+!i10b 1
+Abehaviour
+R5
+R6
+DEx4 work 12 addtestbench 0 22 LW:Cm[_1@Y^@A`Fg13eWf2
+l32
+L10
+VSC1RF^g@YOelmKSF_zAm<2
+R10
+32
+R40
+R41
+R42
+R14
+R15
+!s100 6U@@_Ea72G>836eWg[PIf3
+!i10b 1
+Ealu
+Z43 w1494267099
+R25
+R17
+R18
+R5
+R6
+R7
+Z44 8C:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd
+Z45 FC:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd
+l0
+L6
+Vh0<Y61m6AeL>elRnzz]DZ1
+R10
+32
+Z46 !s108 1494918096.552000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd|
+Z48 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd|
+R14
+R15
+!s100 3Q3eiTK2A1Az8?0JAR9SW1
+!i10b 1
+Aarch
+R25
+R17
+R18
+R5
+R6
+DEx4 work 3 alu 0 22 h0<Y61m6AeL>elRnzz]DZ1
+l100
+L30
+Vbd;:b1QA3eihUS]KQ4U5@1
+R10
+32
+R46
+R47
+R48
+R14
+R15
+!s100 1>T@<=lALK6g?iN7adiIg1
+!i10b 1
+Eand_gate
+Z49 w1493643741
+R17
+R18
+R5
+R6
+R7
+Z50 8C:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd
+Z51 FC:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd
+l0
+L7
+VmAHjO`hjJ7<a0gc@k:nVo1
+R10
+32
+Z52 !s108 1494918093.905000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd|
+Z54 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd|
+R14
+R15
+!s100 U?n=h44>1`[4Q`fOm7b062
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 8 and_gate 0 22 mAHjO`hjJ7<a0gc@k:nVo1
+l18
+L14
+V98;cQR9zPa]EMOTnG8ZGm0
+R10
+32
+R52
+R53
+R54
+R14
+R15
+!s100 a2zePOCShPA2Y767zBWTD3
+!i10b 1
+Eandgate
+Z55 w1494387264
+R5
+R6
+R7
+Z56 8C:/Users/Sayepc/Downloads/AZ/AZ/And.vhdl
+Z57 FC:/Users/Sayepc/Downloads/AZ/AZ/And.vhdl
+l0
+L4
+VzjUQzHVjjacmC9c@dZVH30
+R10
+32
+Z58 !s108 1494413346.979000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/And.vhdl|
+Z60 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/And.vhdl|
+R14
+R15
+!s100 LhBn@F`IA6^L[G;PHo?Wh0
+!i10b 1
+Afunc
+R5
+R6
+DEx4 work 7 andgate 0 22 zjUQzHVjjacmC9c@dZVH30
+l10
+L9
+V[Vz[h9k>lA5eKGbNW`HB>0
+R10
+32
+R58
+R59
+R60
+R14
+R15
+!s100 eVG<S@bIX2GSN5lGZ;ek;1
+!i10b 1
+Eandtesting
+Z61 w1488369802
+R5
+R6
+R7
+Z62 8C:/Users/Sayepc/Downloads/AZ/2/4 bit adder/4BitAdder/andtesting/andtesting.vhd
+Z63 FC:/Users/Sayepc/Downloads/AZ/2/4 bit adder/4BitAdder/andtesting/andtesting.vhd
+l0
+L32
+VGlJ7:fUeh>jkB:oA?5:TQ1
+R10
+32
+Z64 !s108 1494416547.542000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/4 bit adder/4BitAdder/andtesting/andtesting.vhd|
+Z66 !s107 C:/Users/Sayepc/Downloads/AZ/2/4 bit adder/4BitAdder/andtesting/andtesting.vhd|
+R14
+R15
+!s100 ^Q:5EA?G[B_@eZZiO1UFF2
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 10 andtesting 0 22 GlJ7:fUeh>jkB:oA?5:TQ1
+l39
+L37
+V?7nWkkTX>UBCfOW1]Nn:c0
+R10
+32
+R64
+R65
+R66
+R14
+R15
+!s100 7i3Sc;0G1;P^kFZ6M^]S92
+!i10b 1
+Ebitadder
+Z67 w1492615284
+R17
+R18
+R5
+R6
+R7
+Z68 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl
+Z69 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl
+l0
+L7
+VeJ?K?gQ]=z8hVLER5Y>253
+R10
+32
+Z70 !s108 1494918092.656000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl|
+Z72 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl|
+R14
+R15
+!s100 BX:U6mMO[XENn<nJAWM243
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 8 bitadder 0 22 eJ?K?gQ]=z8hVLER5Y>253
+l18
+L16
+V7Z?CPOnR;HR?=A4onO^GM0
+R10
+32
+R70
+R71
+R72
+R14
+R15
+!s100 Y<`88@^E`U^M2QR919@zh2
+!i10b 1
+Ebitsubtractor
+w1493662548
+R25
+R17
+Z73 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R5
+R6
+R7
+Z74 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl
+Z75 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl
+l0
+L8
+VVK[bRM`5]NbobhZ<<GJb01
+R10
+32
+R14
+R15
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl|
+Z77 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl|
+!s100 fFMDTCIaZOFgHBcnL25Q32
+!i10b 1
+!s108 1494094053.960000
+Ccfg_tb
+atb
+eDecoder_3to8_tb
+Z78 DEx4 work 12 decoder_3to8 0 22 4RIFXHjDGg]JHneN_EQCh1
+DAx4 work 15 decoder_3to8_tb 2 tb 22 XIin3HV7R6U_>WmXm=1lQ0
+R5
+R6
+Z79 DEx4 work 15 decoder_3to8_tb 0 22 lINQW>UBiX0f;?TBAHV8W0
+Z80 w1494388616
+R7
+Z81 8C:/Users/Sayepc/Downloads/AZ/AZ/TestBenchDecoder.vhdl
+Z82 FC:/Users/Sayepc/Downloads/AZ/AZ/TestBenchDecoder.vhdl
+l0
+L110
+V20F_8icUzIdigRQ^j]A221
+R10
+32
+Z83 !s108 1494413342.792000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/TestBenchDecoder.vhdl|
+Z85 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/TestBenchDecoder.vhdl|
+R14
+R15
+!s100 5Ng0EcJRG`eCC[j?_Z>4b3
+!i10b 0
+Ecomparator
+Z86 w1492617158
+R17
+R18
+R5
+R6
+R7
+Z87 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl
+Z88 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl
+l0
+L5
+VYaDglnR[J_KF0iAG<e]fo2
+R10
+32
+Z89 !s108 1494918093.411000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl|
+Z91 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl|
+R14
+R15
+!s100 Yneg7zVV62[YMGIDgicc50
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 10 comparator 0 22 YaDglnR[J_KF0iAG<e]fo2
+l15
+L14
+V:1MmLE=H0cZ5?2XV>mZDW0
+R10
+32
+R89
+R90
+R91
+R14
+R15
+!s100 >bKHTJMF]abMXVRd]SUYB3
+!i10b 1
+Econtroller
+Z92 w1494952042
+R25
+R17
+R18
+R5
+R6
+R7
+Z93 8C:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd
+Z94 FC:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd
+l0
+L6
+V_:h^]ngG39a]cmQoz1LzU1
+R10
+32
+Z95 !s108 1494952043.088000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd|
+Z97 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd|
+R14
+R15
+!s100 H06A_1hF9YaBBfDj7LAQ:1
+!i10b 1
+Adataflow
+R25
+R17
+R18
+R5
+R6
+DEx4 work 10 controller 0 22 _:h^]ngG39a]cmQoz1LzU1
+l72
+L19
+V6FRk6`2dnEWHD7]z`ckF53
+R10
+32
+R95
+R96
+R97
+R14
+R15
+!s100 PlZeY=hk]ae[_Wl[zIZZG1
+!i10b 1
+Ecounter
+w1494419908
+R5
+R6
+R7
+8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/counter.vhd
+FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/counter.vhd
+l0
+L3
+V<eiXO:9P:`eGkW6JACEfb1
+R10
+32
+R14
+R15
+!s100 ?4Ph=:dWi<UPAZb@]UFOS3
+!i10b 1
+!s108 1494419911.814000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/counter.vhd|
+!s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/counter.vhd|
+Acounter_arc
+R25
+R5
+R6
+DEx4 work 7 counter 0 22 cDNUIV]O^c[S>zNz`4IKz2
+l22
+L13
+V_W@S^Che=EakLiFW>4ABV0
+R10
+32
+R14
+R15
+FC:/Users/Sayepc/Downloads/COUNTER/COUNTER/Counter.vhd
+w1494411217
+8C:/Users/Sayepc/Downloads/COUNTER/COUNTER/Counter.vhd
+!s108 1494414042.582000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/COUNTER/COUNTER/Counter.vhd|
+!s107 C:/Users/Sayepc/Downloads/COUNTER/COUNTER/Counter.vhd|
+!s100 ]K8m5AhTz9@edL;AC_`<m1
+!i10b 1
+Ecounter_16bit
+Z98 w1494385438
+R5
+R6
+R7
+Z99 8C:/Users/Sayepc/Downloads/AZ/AZ/Counter.vhdl
+Z100 FC:/Users/Sayepc/Downloads/AZ/AZ/Counter.vhdl
+l0
+L4
+VM1M[?534[6W5C;4Uja;9H2
+R10
+32
+Z101 !s108 1494414482.052000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/Counter.vhdl|
+Z103 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/Counter.vhdl|
+R14
+R15
+!s100 Ge]S;TK<`35m?RA;CdGOd1
+!i10b 1
+Abehavior
+R5
+R6
+DEx4 work 13 counter_16bit 0 22 M1M[?534[6W5C;4Uja;9H2
+l15
+L11
+V?g7FZzf^GM[XYziDV]`cj0
+R10
+32
+R101
+R102
+R103
+R14
+R15
+!s100 OKV94gO2KzR5oldXhPi0i0
+!i10b 1
+Ecounter_16bit_bench
+Z104 w1494414550
+R25
+R5
+R6
+R7
+Z105 8C:/Users/Sayepc/Downloads/CounterTestBench.vhdl
+Z106 FC:/Users/Sayepc/Downloads/CounterTestBench.vhdl
+l0
+L5
+Vi5iM]TU@E[SoU3RC1d^HK0
+R10
+32
+Z107 !s108 1494414567.660000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/CounterTestBench.vhdl|
+Z109 !s107 C:/Users/Sayepc/Downloads/CounterTestBench.vhdl|
+R14
+R15
+!s100 Wdk=mA:z8iNAWZd`K7zoM0
+!i10b 1
+Abehavior
+R25
+R5
+R6
+DEx4 work 19 counter_16bit_bench 0 22 i5iM]TU@E[SoU3RC1d^HK0
+l25
+L8
+VF^HWc[@?[ScY`NWW[RWQY0
+R10
+32
+R107
+R108
+R109
+R14
+R15
+!s100 7gVd:bDS2cCH[^d><XMPj1
+!i10b 1
+Edatapath
+Z110 w1494953576
+R25
+R17
+R18
+R5
+R6
+R7
+Z111 8C:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd
+Z112 FC:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd
+l0
+L6
+V:1WXXMzWL9lfY]MK`CSzK2
+R10
+32
+Z113 !s108 1494953582.185000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd|
+Z115 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd|
+R14
+R15
+!s100 DUmM;I;92mFS^VQ==XKUb3
+!i10b 1
+Artl
+R25
+R17
+R18
+R5
+R6
+DEx4 work 8 datapath 0 22 :1WXXMzWL9lfY]MK`CSzK2
+l146
+L52
+VK^;IY=0d58?jH>3f_FLUa1
+R10
+32
+R113
+R114
+R115
+R14
+R15
+!s100 T^2CL[?mV6Qa0[TRkcmlh3
+!i10b 1
+Edecoder_3to8
+Z116 w1494388452
+R5
+R6
+R7
+Z117 8C:/Users/Sayepc/Downloads/AZ/AZ/Decoder.vhdl
+Z118 FC:/Users/Sayepc/Downloads/AZ/AZ/Decoder.vhdl
+l0
+L4
+V4RIFXHjDGg]JHneN_EQCh1
+R10
+32
+Z119 !s108 1494413340.548000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/Decoder.vhdl|
+Z121 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/Decoder.vhdl|
+R14
+R15
+!s100 12683BGn:RB3XTfFed1;11
+!i10b 1
+Afunc
+R5
+R6
+R78
+l22
+L9
+VU71[G0IRi?HHK?kTZ;Vcc1
+R10
+32
+R119
+R120
+R121
+R14
+R15
+!s100 kM2326mRR?_@^7SBZ0dF>0
+!i10b 1
+Edecoder_3to8_tb
+R80
+R5
+R6
+R7
+R81
+R82
+l0
+L5
+VlINQW>UBiX0f;?TBAHV8W0
+R10
+32
+R83
+R84
+R85
+R14
+R15
+!s100 bai1n9N=NB`jagLe`TFg=3
+!i10b 1
+Atb
+R5
+R6
+R79
+l19
+L9
+VXIin3HV7R6U_>WmXm=1lQ0
+R10
+32
+R83
+R84
+R85
+R14
+R15
+!s100 60Cd<_64J_j>3OkniS_881
+!i10b 1
+Edff
+Z122 w1493706360
+R25
+R5
+R6
+R7
+Z123 8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/dff.vhd
+Z124 FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/dff.vhd
+l0
+L5
+VkhzmJ;9YO2N_e[aWi;AF?3
+R10
+32
+Z125 !s108 1494419872.025000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/dff.vhd|
+Z127 !s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/dff.vhd|
+R14
+R15
+!s100 ?0zILoKVf=WMR63KfDJQ;0
+!i10b 1
+Abehavioral
+R25
+R5
+R6
+DEx4 work 3 dff 0 22 khzmJ;9YO2N_e[aWi;AF?3
+l16
+L14
+VBT_d;l6A3B`DoF3^Ck9E03
+R10
+32
+R125
+R126
+R127
+R14
+R15
+!s100 D>>B7IPKQY:gGeF5H@F<j0
+!i10b 1
+Eenc21
+Z128 w1488986394
+R5
+R6
+R7
+Z129 8C:/Users/Sayepc/Desktop/ENCODER/enc21.vhd
+Z130 FC:/Users/Sayepc/Desktop/ENCODER/enc21.vhd
+l0
+L32
+VL4M3oK8GfeaDo:VnlA2>62
+R10
+32
+Z131 !s108 1494420588.797000
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/ENCODER/enc21.vhd|
+Z133 !s107 C:/Users/Sayepc/Desktop/ENCODER/enc21.vhd|
+R14
+R15
+!s100 ;gn[0DlHzmZ<RBbQ;oN_L1
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 5 enc21 0 22 L4M3oK8GfeaDo:VnlA2>62
+l38
+L36
+VbzEnnh=gz9h16KXjl<=To3
+R10
+32
+R131
+R132
+R133
+R14
+R15
+!s100 hHF]6M7E3UE4@kF?d_I=@0
+!i10b 1
+Eencoder164
+Z134 w1491388352
+R5
+R6
+R7
+Z135 8C:/Users/Sayepc/Desktop/ENCODER/encoder164.vhd
+Z136 FC:/Users/Sayepc/Desktop/ENCODER/encoder164.vhd
+l0
+L4
+VTI<8F[T`QbAakAdXTJ<?U3
+R10
+32
+Z137 !s108 1494420589.602000
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/ENCODER/encoder164.vhd|
+Z139 !s107 C:/Users/Sayepc/Desktop/ENCODER/encoder164.vhd|
+R14
+R15
+!s100 ha0kj63TkC]dnXiMlo5c90
+!i10b 1
+Aencoder16to4_arc
+R5
+R6
+DEx4 work 10 encoder164 0 22 TI<8F[T`QbAakAdXTJ<?U3
+l25
+L11
+VS@31X341gV:mbHgg7Gi1D2
+R10
+32
+R137
+R138
+R139
+R14
+R15
+!s100 hfP=1T_YcbcEBCC07F`3a1
+!i10b 1
+Eencoder83
+Z140 w1491388576
+R5
+R6
+R7
+Z141 8C:/Users/Sayepc/Desktop/ENCODER/encoder83.vhd
+Z142 FC:/Users/Sayepc/Desktop/ENCODER/encoder83.vhd
+l0
+L4
+VPhH;39BiN[=;7@X]3<;bX1
+R10
+32
+Z143 !s108 1494420589.240000
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/ENCODER/encoder83.vhd|
+Z145 !s107 C:/Users/Sayepc/Desktop/ENCODER/encoder83.vhd|
+R14
+R15
+!s100 324h[2B33<AR<`@o8NKRR3
+!i10b 1
+Aencoder8to3_arc
+R5
+R6
+DEx4 work 9 encoder83 0 22 PhH;39BiN[=;7@X]3<;bX1
+l16
+L13
+VCWj8<[OYLnn7^niUSjL_;3
+R10
+32
+R143
+R144
+R145
+R14
+R15
+!s100 5fid<WUH5N[V2>2e38bE<1
+!i10b 1
+Eflags
+Z146 w1494857690
+R17
+R18
+R5
+R6
+R7
+Z147 8C:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd
+Z148 FC:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd
+l0
+L5
+V1T0;6C^8`XZdk@1B^o01R1
+R10
+32
+Z149 !s108 1494918095.688000
+Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd|
+Z151 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd|
+R14
+R15
+!s100 OM3]bBIG<zW6TG[X6Z]5S0
+!i10b 1
+Adf
+R17
+R18
+R5
+R6
+DEx4 work 5 flags 0 22 1T0;6C^8`XZdk@1B^o01R1
+l20
+L19
+VDFFHcH[GNJSk:fioR3U981
+R10
+32
+R149
+R150
+R151
+R14
+R15
+!s100 FA]GoXU@iRRbZ1HZW497U3
+!i10b 1
+Adataflow
+R17
+R18
+R5
+R6
+DEx4 work 5 flags 0 22 Rgc94h=KP=H9CndBPBW8B3
+l21
+L19
+V5d=6_e2e8?^PMAMQ32<9b1
+R10
+32
+R150
+R14
+R15
+w1493663502
+R151
+!s108 1494276505.781000
+!s100 c]bd?30U<GdziBXCJM[053
+!i10b 1
+Efourbitadder
+R61
+R5
+R6
+R7
+R62
+R63
+l0
+L76
+VS2m2XC3]XWNK@;gNU2]Ai1
+R10
+32
+R64
+R65
+R66
+R14
+R15
+!s100 M7jkLL7ZhBW7KeU_<g9D`0
+!i10b 1
+Ahierarchical
+R5
+R6
+DEx4 work 12 fourbitadder 0 22 S2m2XC3]XWNK@;gNU2]Ai1
+l87
+L81
+VT2jF6;h8cYI^8jG=C;_2_1
+R10
+32
+R64
+R65
+R66
+R14
+R15
+!s100 ]A0Oa^2F]50]NaUDi?gg=3
+!i10b 1
+Efull_adder
+Z152 w1493706362
+R5
+R6
+R7
+Z153 8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/full_adder.vhd
+Z154 FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/full_adder.vhd
+l0
+L4
+VHCn9HRZb8IOnIckGa6]Hh2
+R10
+32
+Z155 !s108 1494419872.340000
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/full_adder.vhd|
+Z157 !s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/full_adder.vhd|
+R14
+R15
+!s100 3M?_NIdQRDW>=ZiCUVebl2
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 10 full_adder 0 22 HCn9HRZb8IOnIckGa6]Hh2
+l11
+L9
+V2k?e6iXjQNW@e2TQ8f3F70
+R10
+32
+R155
+R156
+R157
+R14
+R15
+!s100 D;0fOic4A:iaSz6OIeVS>0
+!i10b 1
+Efulladder
+Z158 w1494094137
+R5
+R6
+R7
+R74
+R75
+l0
+L4
+Vnbde9oYnoL0VNEMg]TFh50
+R10
+32
+Z159 !s108 1494918092.992000
+R76
+R77
+R14
+R15
+!s100 UY:5jlMo>5=TbAX_No7<P1
+!i10b 1
+Aarch
+R5
+R6
+DEx4 work 9 fulladder 0 22 nbde9oYnoL0VNEMg]TFh50
+l15
+L13
+VdmH=Io;VUfmUK`oQ2e?]m0
+R10
+32
+R159
+R76
+R77
+R14
+R15
+!s100 JjmG_kT1cZ?7De_hLMBdd0
+!i10b 1
+Ahierarchical
+R5
+R6
+DEx4 work 9 fulladder 0 22 TzH?R:K2R@az?Y6cAYPN63
+l61
+L55
+VGQf2A02NPA04IL8<X?`X]3
+R10
+32
+R64
+R65
+R66
+R14
+R15
+R63
+R61
+R62
+!s100 ZNoOFIIKA[VL;HS5VAcPo2
+!i10b 1
+Egatetestbench
+Z160 w1494417008
+R5
+R6
+R7
+R38
+R39
+l0
+L6
+V8l`^>T0?T70]hZ8KO1fVP1
+R10
+32
+Z161 !s108 1494417010.967000
+R41
+R42
+R14
+R15
+!s100 c6amcEoV>RZI6<lBJ5^A90
+!i10b 1
+Abehaviour
+R5
+R6
+DEx4 work 13 gatetestbench 0 22 8l`^>T0?T70]hZ8KO1fVP1
+l31
+L9
+Vf]PGS0@R0?<;NcCnLKP9:0
+R10
+32
+R161
+R41
+R42
+R14
+R15
+!s100 mNUL_=UHj@hLGU>Jh;9K13
+!i10b 1
+Einstructionregister
+Z162 w1493655568
+R17
+R18
+R5
+R6
+R7
+Z163 8C:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd
+Z164 FC:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd
+l0
+L5
+VLPSIhQ;mzlljXOa5fFM;E3
+R10
+32
+Z165 !s108 1494918095.451000
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd|
+Z167 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd|
+R14
+R15
+!s100 Cc`iYmhdj4^zT?`ni[mKA1
+!i10b 1
+Adataflow
+R17
+R18
+R5
+R6
+DEx4 work 19 instructionregister 0 22 LPSIhQ;mzlljXOa5fFM;E3
+l15
+L13
+VD;n2<OhzLPeNN:d<^WZnM2
+R10
+32
+R165
+R166
+R167
+R14
+R15
+!s100 KIH9SA4B=BV=2TnRO>Xjh0
+!i10b 1
+Emainmodule
+Z168 w1494952872
+R17
+R18
+R5
+R6
+R7
+Z169 8C:/modeltech64_10.1c/examples/SAYEH_PC/MainModule.vhd
+Z170 FC:/modeltech64_10.1c/examples/SAYEH_PC/MainModule.vhd
+l0
+L5
+V;NDQaEH7?^?Vd^eHIlSLh1
+R10
+32
+Z171 !s108 1494952876.604000
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/MainModule.vhd|
+Z173 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/MainModule.vhd|
+R14
+R15
+!s100 :h:;hF02fF?<JV><RcA7F2
+!i10b 1
+Adf
+R17
+R18
+R5
+R6
+DEx4 work 10 mainmodule 0 22 ;NDQaEH7?^?Vd^eHIlSLh1
+l33
+L10
+V`85g_QbEbzBB]zZNmJ2@<1
+R10
+32
+R171
+R172
+R173
+R14
+R15
+!s100 XJZZf@CaaNO00<N^GJ41z2
+!i10b 1
+Ememory
+Z174 w1494954178
+R25
+R5
+R6
+R7
+Z175 8C:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd
+Z176 FC:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd
+l0
+L11
+Vd4nDi^fj<JnA282TO_M:M1
+R10
+32
+Z177 !s108 1494954185.281000
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd|
+Z179 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd|
+R14
+R15
+!s100 gh8P5X;QmnBdF7H3CGmzc2
+!i10b 1
+Abehavioral
+R25
+R5
+R6
+DEx4 work 6 memory 0 22 d4nDi^fj<JnA282TO_M:M1
+l22
+L20
+V=M_XUk4TffJ8;QcmUPQ[]3
+R10
+32
+R177
+R178
+R179
+R14
+R15
+!s100 IH^o`XC:9:gd9^0M=22_;1
+!i10b 1
+Emux
+Z180 w1488977190
+R5
+R6
+R7
+Z181 8C:/Users/Sayepc/Downloads/AZ/2/1. mux/mux.vhd
+Z182 FC:/Users/Sayepc/Downloads/AZ/2/1. mux/mux.vhd
+l0
+L32
+VaC^lhG@IWVnC908_W9D081
+R10
+32
+Z183 !s108 1494419347.591000
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/1. mux/mux.vhd|
+Z185 !s107 C:/Users/Sayepc/Downloads/AZ/2/1. mux/mux.vhd|
+R14
+R15
+!s100 ^98R6oeg7B3Hlk<Uo=f]E0
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 3 mux 0 22 aC^lhG@IWVnC908_W9D081
+l38
+L37
+VX3Q<MAknbM@?4bQ>66zD11
+R10
+32
+R183
+R184
+R185
+R14
+R15
+!s100 Qb9a4A7E`nT_7nl5WnBl;2
+!i10b 1
+Emux16x1
+R180
+R5
+R6
+R7
+R181
+R182
+l0
+L71
+V4DFE>jHZ0cQa0[Wj1Yd7G0
+R10
+32
+R183
+R184
+R185
+R14
+R15
+!s100 DnTQGLj4`bSacoPQi8a7:1
+!i10b 1
+Astruct
+R5
+R6
+DEx4 work 7 mux16x1 0 22 4DFE>jHZ0cQa0[Wj1Yd7G0
+l85
+L77
+V85]k[CKho^GmA6AEVG9^N1
+R10
+32
+R183
+R184
+R185
+R14
+R15
+!s100 ^=Fme7ASmkFe;7dN@ZcQ83
+!i10b 1
+Emux4x1
+R180
+R5
+R6
+R7
+R181
+R182
+l0
+L46
+V3ia=OEFmoU6W<P>FKLYW[3
+R10
+32
+R183
+R184
+R185
+R14
+R15
+!s100 7RPfcdJj2QKf;c`2e0GAO2
+!i10b 1
+Astruct
+R5
+R6
+DEx4 work 6 mux4x1 0 22 3ia=OEFmoU6W<P>FKLYW[3
+l58
+L52
+VJ7;WHcK1caL9D6R<jNTGC0
+R10
+32
+R183
+R184
+R185
+R14
+R15
+!s100 7m><T;6EJY^XG9BneXVDW0
+!i10b 1
+Emux_16_to_1
+Z186 w1494413412
+R5
+R6
+R7
+Z187 8C:/Users/Sayepc/Downloads/AZ/AZ/16-1mux.vhdl
+Z188 FC:/Users/Sayepc/Downloads/AZ/AZ/16-1mux.vhdl
+l0
+L5
+VB^n0aEISaC?B7ITodYFc`1
+R10
+32
+Z189 !s108 1494413414.840000
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/16-1mux.vhdl|
+Z191 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/16-1mux.vhdl|
+R14
+R15
+!s100 `RE;_f;S><T7Y`ID6KbWa0
+!i10b 1
+Aarch
+R5
+R6
+DEx4 work 11 mux_16_to_1 0 22 B^n0aEISaC?B7ITodYFc`1
+l22
+L12
+VOBj4GI]XmRRia1M6Z=^lS0
+R10
+32
+R189
+R190
+R191
+R14
+R15
+!s100 ngE=l0WgO3mG`Qhk0Be;41
+!i10b 1
+Emux_4_to_1
+Z192 w1494387874
+R5
+R6
+R7
+Z193 8C:/Users/Sayepc/Downloads/AZ/AZ/4-1Mux.vhdl
+Z194 FC:/Users/Sayepc/Downloads/AZ/AZ/4-1Mux.vhdl
+l0
+L4
+VPeFM@;UoOd22mYKOm]1D`0
+R10
+32
+Z195 !s108 1494413343.350000
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/4-1Mux.vhdl|
+Z197 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/4-1Mux.vhdl|
+R14
+R15
+!s100 55<bCFR3Bm^Ze]Y36OgmO2
+!i10b 1
+Afunc
+R5
+R6
+DEx4 work 10 mux_4_to_1 0 22 PeFM@;UoOd22mYKOm]1D`0
+l31
+L10
+VQRU]BWa:CT:1jW5]5POH82
+R10
+32
+R195
+R196
+R197
+R14
+R15
+!s100 WAaWWjNiWHz2^@flMWG?k0
+!i10b 1
+Enot_gate
+Z198 w1494094679
+R17
+R18
+R5
+R6
+R7
+Z199 8C:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd
+Z200 FC:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd
+l0
+L7
+VALE>6dPdDS@kB]Emk7:lL3
+R10
+32
+Z201 !s108 1494918096.795000
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd|
+Z203 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd|
+R14
+R15
+!s100 fJUoJXaNDPj6KKl0`J^b=3
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 8 not_gate 0 22 ALE>6dPdDS@kB]Emk7:lL3
+l16
+L14
+VzmIKH:o0<WLBMk>L1B:U?1
+R10
+32
+R201
+R202
+R203
+R14
+R15
+!s100 IfilfBO84dKC[[HE`hARB3
+!i10b 1
+Enotgate
+Z204 w1494387306
+R5
+R6
+R7
+Z205 8C:/Users/Sayepc/Downloads/AZ/AZ/Not.vhdl
+Z206 FC:/Users/Sayepc/Downloads/AZ/AZ/Not.vhdl
+l0
+L4
+VAHAa_W?S8cSa?f]G6U@2M0
+R10
+32
+Z207 !s108 1494413340.972000
+Z208 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/Not.vhdl|
+Z209 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/Not.vhdl|
+R14
+R15
+!s100 l3_eJPW?1UX[z4?W0azEz0
+!i10b 1
+Afunc
+R5
+R6
+DEx4 work 7 notgate 0 22 AHAa_W?S8cSa?f]G6U@2M0
+l10
+L9
+V4l=Jic5z50OI`5ZBMG<P@1
+R10
+32
+R207
+R208
+R209
+R14
+R15
+!s100 ^7gcc`@Lc?4X;o@SkKMX50
+!i10b 1
+Eor_gate
+Z210 w1492616951
+R17
+R18
+R5
+R6
+R7
+Z211 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl
+Z212 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl
+l0
+L6
+VCWGe_29FNo30i8AnKPkoV0
+R10
+32
+Z213 !s108 1494918091.533000
+Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl|
+Z215 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl|
+R14
+R15
+!s100 O6[>QSQ;h7?fRjEQVB3zL1
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 7 or_gate 0 22 CWGe_29FNo30i8AnKPkoV0
+l17
+L13
+VF4lUVk0Fz`KWnd=T8NkJg1
+R10
+32
+R213
+R214
+R215
+R14
+R15
+!s100 ]KoK]YJlNm`[9Ma@o89o73
+!i10b 1
+Eorgate
+Z216 w1494387286
+R5
+R6
+R7
+Z217 8C:/Users/Sayepc/Downloads/AZ/AZ/Or.vhdl
+Z218 FC:/Users/Sayepc/Downloads/AZ/AZ/Or.vhdl
+l0
+L4
+Vcm7b?RMA0mPiO8In7HGXl1
+R10
+32
+Z219 !s108 1494413341.470000
+Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/AZ/Or.vhdl|
+Z221 !s107 C:/Users/Sayepc/Downloads/AZ/AZ/Or.vhdl|
+R14
+R15
+!s100 YZXHKJh47WX@e2VYZRVBC1
+!i10b 1
+Afunc
+R5
+R6
+DEx4 work 6 orgate 0 22 cm7b?RMA0mPiO8In7HGXl1
+l10
+L9
+VRb2F^HTIX4EzFkFHB]^J00
+R10
+32
+R219
+R220
+R221
+R14
+R15
+!s100 :cc;M>_3IGF632E@UA0n41
+!i10b 1
+Eprogramcounter
+Z222 w1493651476
+R17
+R18
+R5
+R6
+R7
+Z223 8C:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd
+Z224 FC:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd
+l0
+L7
+V<MB<N4E`A5>UM6BY9;nPg1
+R10
+32
+Z225 !s108 1494918094.206000
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd|
+Z227 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd|
+R14
+R15
+!s100 4=fTZe]iXdjGO;9PXzf?K0
+!i10b 1
+Adataflow
+R17
+R18
+R5
+R6
+DEx4 work 14 programcounter 0 22 <MB<N4E`A5>UM6BY9;nPg1
+l17
+L15
+V]A8oZhCiMj<F];WPkb3<F1
+R10
+32
+R225
+R226
+R227
+R14
+R15
+!s100 9Sm2HG7hM4iGF39_oAO^X1
+!i10b 1
+Ereg
+R152
+R25
+R5
+R6
+R7
+Z228 8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/register.vhd
+Z229 FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/register.vhd
+l0
+L5
+V_jz=`Zz2fPZ56[5zPmRHJ2
+R10
+32
+Z230 !s108 1494419872.628000
+Z231 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/register.vhd|
+Z232 !s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/register.vhd|
+R14
+R15
+!s100 ^hLQ4o6nzfi25M[YI611?1
+!i10b 1
+Abehavioral
+R25
+R5
+R6
+DEx4 work 3 reg 0 22 _jz=`Zz2fPZ56[5zPmRHJ2
+l16
+L14
+Vj4oBhzKaNQ:UQ=ig9^8lk0
+R10
+32
+R230
+R231
+R232
+R14
+R15
+!s100 nK5B]7;JBefcC^jAGhka]2
+!i10b 1
+Ereg16
+Z233 w1494413868
+R25
+R5
+R6
+R7
+Z234 8C:/Users/Sayepc/Downloads/reg16.vhd
+Z235 FC:/Users/Sayepc/Downloads/reg16.vhd
+l0
+L5
+V784HGZSBCB2^4QBF_6?7>0
+R10
+32
+Z236 !s108 1494413910.458000
+Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/reg16.vhd|
+Z238 !s107 C:/Users/Sayepc/Downloads/reg16.vhd|
+R14
+R15
+!s100 lOT^kkoeS79h?boSczZ9c2
+!i10b 1
+Aarch
+R25
+R5
+R6
+DEx4 work 5 reg16 0 22 784HGZSBCB2^4QBF_6?7>0
+l18
+L15
+VTLoZ7KzKYKIV5IGgm=]N]3
+R10
+32
+R236
+R237
+R238
+R14
+R15
+!s100 kgBK]Rdb0je>HW:E1n9n;3
+!i10b 1
+Eregisterfile
+Z239 w1494739719
+R25
+R17
+R18
+R5
+R6
+R7
+Z240 8C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd
+Z241 FC:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd
+l0
+L7
+VOeFIYCn6NHOQnYVU^fAbh1
+R10
+32
+Z242 !s108 1494918096.023000
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd|
+Z244 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd|
+R14
+R15
+!s100 B]1FCd=nb<a49?6gXAz2z0
+!i10b 1
+Adataflow
+R25
+R17
+R18
+R5
+R6
+DEx4 work 12 registerfile 0 22 OeFIYCn6NHOQnYVU^fAbh1
+l32
+L20
+VIc8RJ5azhUW=M3djR6L1f0
+R10
+32
+R242
+R243
+R244
+R14
+R15
+!s100 ^8ZMna^:h4T@BWD09hi?T3
+!i10b 1
+Esayeh
+Z245 w1494951547
+R17
+R18
+R5
+R6
+R7
+Z246 8C:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd
+Z247 FC:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd
+l0
+L6
+V2WURfQ?jHh]1AJ?gB<mL^1
+R10
+32
+Z248 !s108 1494952238.035000
+Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd|
+Z250 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd|
+R14
+R15
+!s100 `U<G`;F=oPJZ[dG1EfRA63
+!i10b 1
+Adataflow
+R17
+R18
+R5
+R6
+DEx4 work 5 sayeh 0 22 2WURfQ?jHh]1AJ?gB<mL^1
+l92
+L18
+Vj[YNdW_gf^6nLj[0=cB7a1
+R10
+32
+R248
+R249
+R250
+R14
+R15
+!s100 k0d72Q;;<lT5eAldzmoX<0
+!i10b 1
+Eshiftleft
+Z251 w1493655168
+R17
+R18
+R5
+R6
+R7
+Z252 8C:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd
+Z253 FC:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd
+l0
+L5
+VWTgTL3]`;ea14z2f:mHMc1
+R10
+32
+Z254 !s108 1494918094.832000
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd|
+Z256 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd|
+R14
+R15
+!s100 A@mh@i<UKnb?cBMP:YZ220
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 9 shiftleft 0 22 WTgTL3]`;ea14z2f:mHMc1
+l15
+L13
+VF=Hz:c]Hkk3O9NNAG9[io2
+R10
+32
+R254
+R255
+R256
+R14
+R15
+!s100 k[OhCaSPTAGEQWS^CER@l2
+!i10b 1
+Eshiftright
+Z257 w1493655362
+R17
+R18
+R5
+R6
+R7
+Z258 8C:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd
+Z259 FC:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd
+l0
+L6
+V_8Nik5jV=BEDXFEmg2e3k0
+R10
+32
+Z260 !s108 1494918095.169000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd|
+Z262 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd|
+R14
+R15
+!s100 DR;AX_HWa=RLGT@jl[Ecm0
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 10 shiftright 0 22 _8Nik5jV=BEDXFEmg2e3k0
+l16
+L14
+V`BFHHgE]F7Q6WP_LFC6Xg2
+R10
+32
+R260
+R261
+R262
+R14
+R15
+!s100 af]aHHC?6m_h>:HndWLzi1
+!i10b 1
+Eshifttest
+Z263 w1494418896
+R5
+R6
+R7
+Z264 8C:/Users/Sayepc/Downloads/AZ/ShiftTestbench.vhdl
+Z265 FC:/Users/Sayepc/Downloads/AZ/ShiftTestbench.vhdl
+l0
+L7
+V@D0CZI^8df>Ojh4eBPeiI2
+R10
+32
+Z266 !s108 1494418901.662000
+Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/ShiftTestbench.vhdl|
+Z268 !s107 C:/Users/Sayepc/Downloads/AZ/ShiftTestbench.vhdl|
+R14
+R15
+!s100 gfP_^k=UY9ISW5H^8XM[_2
+!i10b 1
+Abehaviour
+R5
+R6
+DEx4 work 9 shifttest 0 22 @D0CZI^8df>Ojh4eBPeiI2
+l39
+L10
+VFX:X9HhYeXA<nQVQ9e5?Q3
+R10
+32
+R266
+R267
+R268
+R14
+R15
+!s100 S8DRmD[@mY_dJI5aOCLG]1
+!i10b 1
+Esub
+Z269 w1494927497
+R5
+R6
+R7
+Z270 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl
+Z271 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl
+l0
+L4
+V4OBACaAGNBe<2^m7AIM:M2
+R10
+32
+Z272 !s108 1494927502.110000
+Z273 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl|
+Z274 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl|
+R14
+R15
+!s100 3Pj]>Bm9dYZo9XZo[FHLL3
+!i10b 1
+Aarch
+R5
+R6
+DEx4 work 3 sub 0 22 4OBACaAGNBe<2^m7AIM:M2
+l25
+L12
+VDAYSWOj]PjG[TGMhb3H>m3
+R10
+32
+R272
+R273
+R274
+R14
+R15
+!s100 ;nF9?2c1[O80iiXR4UHBa2
+!i10b 1
+Etb_datapath
+Z275 w1493706364
+R25
+R5
+R6
+R7
+Z276 8C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/tb_datapath.vhd
+Z277 FC:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/tb_datapath.vhd
+l0
+L5
+VeD_cOBT480odEzATOQ4TR0
+R10
+32
+Z278 !s108 1494419872.983000
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/tb_datapath.vhd|
+Z280 !s107 C:/Users/Sayepc/Downloads/AZ/2/ordinary  multiply/tb_datapath.vhd|
+R14
+R15
+!s100 G@`eI>m3lnK9k]No4Z:N>2
+!i10b 1
+Atb
+R25
+R5
+R6
+DEx4 work 11 tb_datapath 0 22 eD_cOBT480odEzATOQ4TR0
+l25
+L8
+V:=FV_EfLDO[h<zg<j_cJA0
+R10
+32
+R278
+R279
+R280
+R14
+R15
+!s100 E9h@k<8ei6fZbCn7Cz5oe0
+!i10b 1
+Etotaladder
+Z281 w1492615279
+R17
+R18
+R5
+R6
+R7
+Z282 8C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl
+Z283 FC:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl
+l0
+L6
+V;JPY_PB;j4IIDdPYO]7=C1
+R10
+32
+Z284 !s108 1494918092.001000
+Z285 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl|
+Z286 !s107 C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl|
+R14
+R15
+!s100 ;;P7eY=lUTlE3K]2Y]gNn1
+!i10b 1
+Aarch
+R17
+R18
+R5
+R6
+DEx4 work 10 totaladder 0 22 ;JPY_PB;j4IIDdPYO]7=C1
+l28
+L15
+V1g]U[OV4@D5mY`j4KXUb`3
+R10
+32
+R284
+R285
+R286
+R14
+R15
+!s100 aY:cYQfULm03Z16>N[^dM2
+!i10b 1
+Etotalsubtractor
+Z287 w1493662499
+R17
+R73
+R5
+R6
+R7
+R270
+R271
+l0
+L5
+V0IJKljiC;^FgfmdSX6dDJ1
+R10
+32
+Z288 !s108 1493662513.758000
+R273
+R274
+R14
+R15
+!s100 JZBLb=e<moV1VmKWeDT1T1
+!i10b 1
+Aarch
+R17
+R73
+R5
+R6
+DEx4 work 15 totalsubtractor 0 22 0IJKljiC;^FgfmdSX6dDJ1
+l27
+L14
+V3TIU5BO=^@f^VmgY>a90N1
+R10
+32
+R288
+R273
+R274
+R14
+R15
+!s100 PYMiM@9zYDRkBz2P8f=7L2
+!i10b 1
+Etristate
+Z289 w1494951178
+R17
+R18
+R5
+R6
+R7
+Z290 8C:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd
+Z291 FC:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd
+l0
+L7
+V47V6bAzgfQDBYW@zZCgKj2
+R10
+32
+Z292 !s108 1494951185.824000
+Z293 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd|
+Z294 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd|
+R14
+R15
+!s100 QDoi2db8ifQbY?b@k>_6<3
+!i10b 1
+Abehavioral
+R17
+R18
+R5
+R6
+DEx4 work 8 tristate 0 22 47V6bAzgfQDBYW@zZCgKj2
+l17
+L15
+VK<LE[ib4Cb65V^jHY2Ica0
+R10
+32
+R292
+R293
+R294
+R14
+R15
+!s100 JSTWMi503KSS^1QQjz:lB0
+!i10b 1
+Ewindowpointer
+Z295 w1493661652
+R17
+R18
+R5
+R6
+R7
+Z296 8C:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd
+Z297 FC:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd
+l0
+L6
+V9i;R4ZOIRcOdK@N<aKbXd2
+R10
+32
+Z298 !s108 1494918094.457000
+Z299 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd|
+Z300 !s107 C:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd|
+R14
+R15
+!s100 Bd_>eQOzQZQQOEYIAoX5T3
+!i10b 1
+Adataflow
+R17
+R18
+R5
+R6
+DEx4 work 13 windowpointer 0 22 9i;R4ZOIRcOdK@N<aKbXd2
+l19
+L16
+VP=M<Be;_74<KSG8f2Fej23
+R10
+32
+R298
+R299
+R300
+R14
+R15
+!s100 ;8R7g?Oc;W54;7d6TBzEZ3
+!i10b 1

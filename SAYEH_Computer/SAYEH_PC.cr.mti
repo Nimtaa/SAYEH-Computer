@@ -1,0 +1,239 @@
+C:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/addressLogic.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity addressLogic
+-- Compiling architecture arch of addressLogic
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/Flags.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Flags
+-- Compiling architecture df of Flags
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd {2 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity RegisterFile
+-- Compiling architecture dataFlow of RegisterFile
+** Warning: [9] C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd(27): (vcom-1013) Initial value of "Rs_index" depends on value of signal "IR_in".
+
+** Warning: [9] C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd(27): (vcom-1013) Initial value of "Rs_index" depends on value of signal "WP_in".
+
+** Warning: [9] C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd(28): (vcom-1013) Initial value of "Rd_index" depends on value of signal "IR_in".
+
+** Warning: [9] C:/modeltech64_10.1c/examples/SAYEH_PC/RegisterFile.vhd(28): (vcom-1013) Initial value of "Rd_index" depends on value of signal "WP_in".
+
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitAdder.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity bitAdder
+-- Compiling architecture arch of bitAdder
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/WP.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity windowPointer
+-- Compiling architecture dataFlow of windowPointer
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Comparator.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity comparator
+-- Compiling architecture arch of comparator
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/Or.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity or_gate
+-- Compiling architecture arch of or_gate
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/shiftLeft.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity shiftLeft
+-- Compiling architecture arch of shiftLeft
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/Sayeh.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Sayeh
+-- Compiling architecture dataflow of Sayeh
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/IR.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity instructionRegister
+-- Compiling architecture dataFlow of instructionRegister
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/and_gate.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity and_gate
+-- Compiling architecture arch of and_gate
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/PC.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity programCounter
+-- Compiling architecture dataFlow of programCounter
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/Controller.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller
+-- Compiling architecture dataflow of Controller
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/shiftRight.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity shiftRight
+-- Compiling architecture arch of shiftRight
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16bitAdder.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity totalAdder
+-- Compiling architecture arch of totalAdder
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/16BitSubtractor.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Sub
+-- Compiling architecture arch of Sub
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/AddressUnit.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity AddressUnit
+-- Compiling architecture dataflow of AddressUnit
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/DataPath.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity DataPath
+-- Compiling architecture rtl of DataPath
+
+} {} {}} C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/Sayepc/Desktop/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/SAYEH-master-98ab5dfa43631f6b968fa792dad07682f500a630/BitSubtractor.vhdl
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdder
+-- Compiling architecture arch of FullAdder
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/tristate.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tristate
+-- Compiling architecture Behavioral of tristate
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/Memory.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavioral of memory
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/not_gate.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity not_gate
+-- Compiling architecture arch of not_gate
+
+} {} {}} C:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.1c/examples/SAYEH_PC/ALU.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture arch of ALU
+
+} {} {}}

@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Tag_Valid_Array2 is port(
+clk , wren,reset_n  : in std_logic ;
+address : in std_logic_vector(5 downto 0);
+wrdata : in std_logic_vector(3 downto 0);
+data : out std_logic_vector(4 downto 0);
+invalidate : in std_logic
+);
+
+end entity;
+
+architecture arch of Tag_Valid_Array2 is
+--2 set associative
+
+type tv_Array2 is array (0 to 63) of std_logic_vector(4 downto 0);
+
+signal tv_arrays2 : tv_array2:=(others => "00000");
+signal valid : std_logic ;
+signal index : std_logic_vector(5 downto 0) := address(5 downto 0);
+
+begin
+  process(clk)
+  begin
+
+    if reset_n = '1' then
+    tv_arrays2  <= (others => "00000");
+  end if;
+
+    if clk = '1' then  ---codes starts from here
+    data <= tv_arrays2(to_integer (unsigned((address))));
+    if(wren = '1') then
+      tv_arrays2(to_integer(unsigned((address))))(3 downto 0)<=  wrdata;
+      if(invalidate='1') then tv_arrays2(to_integer(unsigned((address))))(4) <= '0';
+    elsif (invalidate='0') then tv_arrays2(to_integer(unsigned((address))))(4) <= '1';
+
+  end if;
+      end if;
+    end if;
+  end process;
+
+end architecture;

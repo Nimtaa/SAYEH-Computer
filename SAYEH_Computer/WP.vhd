@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+
+
+entity windowPointer is
+  port (
+  WPadd:in STD_LOGIC;
+  WPreset:in STD_LOGIC;
+  inputCode:in STD_LOGIC_VECTOR(5 downto 0);
+  clk:in STD_LOGIC;
+  outputCode:out STD_LOGIC_VECTOR(5 downto 0)
+  );
+end entity;
+
+architecture dataFlow of windowPointer is
+    signal temp : std_logic_vector(5 downto 0):="000000" ;
+
+begin
+--    temp <= "000000";
+  process(clk)
+  begin
+    if clk = '1' then
+      if WPadd = '1' then
+        outputCode <= inputCode + temp ;
+        temp <= inputCode + temp ;
+        end if;
+        if WPreset = '1' then
+            outputCode <= "000000" ;
+        end if;
+      end if;
+  end process;
+end architecture;

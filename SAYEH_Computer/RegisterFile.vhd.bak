@@ -1,0 +1,60 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+use ieee.numeric_std.all;
+
+
+entity RegisterFile is
+  port (
+ RFL_write:in STD_LOGIC;
+ RFH_write:in STD_LOGIC;
+  clk:in STD_LOGIC;
+  IR_in : in STD_LOGIC_VECTOR(3 downto 0);
+WP_in:in STD_LOGIC_VECTOR(5 downto 0);
+ databus_in : in STD_LOGIC_VECTOR(15 downto 0);
+
+
+ 
+  Rs:out STD_LOGIC_VECTOR(15 downto 0);
+  Rd:out STD_LOGIC_VECTOR(15 downto 0)
+  );
+end entity;
+
+architecture dataFlow of RegisterFile is
+type RegisterFile is array (0 to 63) of STD_LOGIC_VECTOR(15 downto 0 );
+signal registers :  RegisterFile ;
+
+
+--Rs index
+--Rd index
+signal Rs_index :std_logic_vector (5 downto 0):= IR_in(1 downto 0 )+ WP_in;
+signal Rd_index : std_logic_vector (5 downto 0) := IR_in (3 downto 2 )+ WP_in;
+
+
+
+begin
+  process(clk)
+  begin
+    if clk = '1' then
+    if RFL_write='1' and RFH_write='1' then
+        registers(to_integer(unsigned(Rd_index))) <= databus_in;
+        Rd <= databus_in;
+
+    end if;
+    if RFL_write='1' and RFH_write='0' then
+      registers(to_integer(unsigned(Rd_index))) <= "00000000" & databus_in(7 downto 0);
+      Rd <= "00000000" & databus_in(7 downto 0);
+  end if;
+  if RFL_write='0' and RFH_write='1' then
+    registers(to_integer(unsigned(Rd_index))) <=  databus_in(15 downto 8) & "00000000";
+    Rd <=  databus_in(15  downto 8) & "00000000";
+  end if;
+
+  if RFL_write='0' and RFH_write='0' then
+  Rd <= registers(to_integer(unsigned(Rd_index)));
+  Rs <= registers(to_integer(unsigned(Rd_index)));
+end if;
+end if;
+  end process;
+  
+end architecture;

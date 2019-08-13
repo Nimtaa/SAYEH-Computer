@@ -1,0 +1,172 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+use ieee.numeric_std.all;
+
+entity DataPath is port (
+    
+  databus : inout std_logic_vector(15 downto 0) ;
+  clk : in std_logic ; 
+ --ALU
+  B15to0 :in STD_LOGIC;   
+  AandB :in STD_LOGIC;   
+  AorB :in STD_LOGIC;   
+  AnorB :in STD_LOGIC;   
+  AaddB :in STD_LOGIC;   
+  AsubB :in STD_LOGIC;   
+  AmulB : in STD_LOGIC;
+  AcmpB :in STD_LOGIC;   
+  ShrB :in STD_LOGIC;   
+  ShlB :in STD_LOGIC;   
+  notB :in STD_LOGIC;   
+  --IR
+  ir_load : in std_logic;
+  --address logic 
+  ResetPC : in std_logic;
+  PCPlusI : in std_logic ; 
+  PCplus1 : in std_logic ; 
+  RPlusI : in std_logic ; 
+  RPlus0 : in std_logic;
+  EnablePC : in std_logic;
+   --wp
+  WPadd : in std_logic ; 
+  WPreset : in std_logic;
+  --flags 
+  C_Set , C_Reset , Z_Set , Z_Reset  , SR_Load : in std_logic ; 
+  --rf
+  RFL_write , RFH_write , Shadow : in std_logic ;
+    --Memory 
+ memAddress : out std_logic_vector(15 downto 0 );  
+  --alu
+  alu_opcode : in std_logic_vector(3 downto 0);
+  --tristates
+    rd_on_AddressUnitRSide ,
+    rs_on_AddressUnitRSide , 
+    address_on_databus ,
+    aluout_on_databus : in std_logic ;   
+    --OUTPUT
+    Zout,Cout : out std_logic ; 
+    ir_out_dp : out std_logic_vector(15 downto 0)
+);
+end entity ; 
+architecture rtl of DataPath is 
+  component ALU is port (
+  B15to0 :in STD_LOGIC;   
+  AandB :in STD_LOGIC;   
+  AorB :in STD_LOGIC;   
+  AnorB :in STD_LOGIC;   
+  AaddB :in STD_LOGIC;   
+  AsubB :in STD_LOGIC;   
+  AmulB : in STD_LOGIC;
+  AcmpB :in STD_LOGIC;   
+  ShrB :in STD_LOGIC;   
+  ShlB :in STD_LOGIC;   
+  notB :in STD_LOGIC;   
+  Cin :in STD_LOGIC;   
+  Zin :in STD_LOGIC;   
+  inputA : in STD_LOGIC_VECTOR(15 downto 0);
+  inputB : in STD_LOGIC_VECTOR(15 downto 0);
+  ALUout:out STD_LOGIC_VECTOR(15 downto 0);
+  Cout :out STD_LOGIC;   
+  Zout :out STD_LOGIC
+  --Rd:out STD_LOGIC_VECTOR(15 downto 0)  
+  );
+  end component ;
+component RegisterFile is
+  port (
+  RFL_write:in STD_LOGIC;
+  RFH_write:in STD_LOGIC;
+  clk:in STD_LOGIC;
+  IR_in : in STD_LOGIC_VECTOR(3 downto 0);
+  WP_in:in STD_LOGIC_VECTOR(5 downto 0);
+  databus_in : in STD_LOGIC_VECTOR(15 downto 0);
+  Rs:out STD_LOGIC_VECTOR(15 downto 0);
+  Rd:out STD_LOGIC_VECTOR(15 downto 0)
+  );
+end component;
+component Flags is port(
+Zin:in STD_LOGIC;
+  Cin:in STD_LOGIC;
+  CSet:in STD_LOGIC;
+  CReset:in STD_LOGIC;
+  ZSet:in STD_LOGIC;
+  SRload:in STD_LOGIC;
+  ZReset:in STD_LOGIC;
+  clk:in STD_LOGIC;
+  Cout:out STD_LOGIC;
+  Zout:out STD_LOGIC
+); 
+end component ;
+component windowPointer is
+  port (
+  WPadd:in STD_LOGIC;
+  WPreset:in STD_LOGIC;
+  inputCode:in STD_LOGIC_VECTOR(5 downto 0);
+  clk:in STD_LOGIC;
+  outputCode:out STD_LOGIC_VECTOR(5 downto 0)
+  );
+end component;
+component AddressUnit IS
+ PORT (
+ Rside : IN std_logic_vector (15 DOWNTO 0);
+ Iside : IN std_logic_vector (7 DOWNTO 0);
+ Address : OUT std_logic_vector (15 DOWNTO 0);
+ clk, ResetPC, PCplusI, PCplus1 : IN std_logic;
+ RplusI, Rplus0, EnablePC : IN std_logic
+ );
+ END component;
+component instructionRegister is
+  port (
+  Load:in STD_LOGIC;
+  inputCode:in STD_LOGIC_VECTOR(15 downto 0);
+  clk:in STD_LOGIC;
+  outputCode:out STD_LOGIC_VECTOR(15 downto 0)
+  );
+end component;
+component tristate
+        port (
+        A: in  std_logic_vector(15 downto 0);
+        EN  : in  STD_LOGIC;
+        B: out std_logic_vector(15 downto 0)
+);
+    end component;    
+    signal IRin_signal : std_logic_vector(3 downto 0 );
+    signal IR_out_signal : std_logic_vector(15 downto 0);
+    signal Rs_signal : std_logic_vector (15 downto 0); 
+    signal Rd_signal : std_logic_vector(15 downto 0);
+    signal WPout_signal : std_logic_vector(5 downto 0 );
+    signal alu_cout_signal : std_logic;
+    signal alu_zout_signal : std_logic;
+    signal alu_output_signal : std_logic_vector(15 downto 0);
+    signal flags_cout_signal : std_logic;
+    signal flags_zout_signal : std_logic;
+    signal address_unit_r_side_bus: std_logic_vector(15 downto 0);
+    signal memAddress_signal: std_logic_vector(15 downto 0);
+    signal address_unit_output_signal:std_logic_vector(15 downto 0);
+    begin    
+registerFile_module: 
+RegisterFile port map (RFL_write,RFH_write,clk,IR_out_signal(11 downto 8 ),WPout_signal,databus,Rs_signal,Rd_signal);
+ALU_module :
+ ALU port map(B15to0,AandB,AorB,AnorB,AaddB,AsubB ,AmulB,AcmpB,ShrB,ShlB,notB,flags_cout_signal,flags_zout_signal
+,Rd_signal,Rs_signal,alu_output_signal,alu_cout_signal,alu_zout_signal);
+
+flags_module : Flags port map (alu_zout_signal,alu_cout_signal,C_Set ,C_Reset,Z_Set,SR_Load,Z_Reset,clk,
+flags_cout_signal,flags_zout_signal);
+
+windowpointer_module 
+: windowPointer port map (WPadd,WPreset,IR_out_signal(5 downto 0),clk,WPout_signal);
+    
+AU_module 
+:   AddressUnit port map(address_unit_r_side_bus,IR_out_signal(7 downto 0)
+, memAddress_signal, clk , ResetPC, PCplusI, PCplus1, RplusI, Rplus0, EnablePC);  
+IR_module 
+: instructionRegister port map(ir_load,databus,clk,IR_out_signal);   
+
+address_on_databus_module : tristate port map(IR_out_signal,address_on_databus,databus);
+aluout_on_databus_module : tristate port map (alu_output_signal,aluout_on_databus,databus);
+Rd_on_AddressUnitRSide_module : tristate port map(Rd_signal, Rd_on_AddressUnitRSide, address_unit_r_side_bus);
+Rs_on_AddressUnitRSide_module : tristate port map(Rs_signal, Rs_on_AddressUnitRSide, address_unit_r_side_bus);	    
+Cout<=flags_cout_signal;
+Zout<=flags_zout_signal;
+ir_out_dp<=IR_out_signal;
+end rtl ; 

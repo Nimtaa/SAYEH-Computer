@@ -1,0 +1,112 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity TopCache is port (
+clk, reset_n: in std_logic;
+read : in std_logic;
+write : in std_logic;
+addressBus : in std_logic_vector(9 downto 0);
+datain : in std_logic_vector(15 downto 0);
+dataout : out std_logic_vector(15 downto 0 )
+);
+end entity;
+
+architecture arch of TopCache is
+
+component MainCache is port(
+clk , reset_n,
+reset_c ,--reset counter
+mruwaybitprevios, --from controller
+write, --comes from sayeh
+--write_to_cache: in std_logic;
+writeToMem : in std_logic;
+wren0 ,wren1 , tagWren0 , tagWren1 ,invalidate0, invalidate1: in std_logic;
+address   : in std_logic_vector(9 downto 0 );
+wrdata : in std_logic_vector(15 downto 0 );
+w0_valid,w1_valid,tag_valid0,tag_valid1  : out std_logic;
+wayOutputMRU : out std_logic;
+outdata : out std_logic_vector(15 downto 0);
+hit : out std_logic
+);
+end component ;
+
+
+component CacheController is port(
+  clk : in std_logic;
+  read : in std_logic;
+  write : in std_logic;
+  memdataready : in std_logic;
+  hit : in std_logic;
+  w0_valid : in std_logic;
+  w1_valid : in std_logic;
+  tva0valid : in std_logic;
+  tva1valid : in std_logic;
+  wFromMRU : in std_logic;
+
+
+  writeEnable0 : out std_logic;
+  writeEnable1 : out std_logic;
+  TagValidWEnable0 : out std_logic;
+  TagValidWEnable1 : out std_logic;
+  Invalidate0 : out std_logic;
+  Invalidate1 : out std_logic;
+  selectWay : out std_logic;
+  resetCounter : out std_logic;
+
+  readMem : out std_logic;
+  writeMem : out std_logic
+  );
+end component;
+
+
+
+
+component Memory is
+	generic (blocksize : integer := 1024);
+
+	port (
+		clk, ReadMem, WriteMem : in std_logic;
+    AddressBus: in std_logic_vector (9 downto 0);
+    Datain : in std_logic_vector(15 downto 0);
+    Dataout : out std_logic_vector (15 downto 0);
+		memdataready : out std_logic
+		);
+end component;
+--MainCache signal
+signal hit_signal,w0_valid_signal,w1_valid_signal,tag_valid0_signal,tag_valid1_signal : std_logic;
+signal outdata_signal : std_logic_vector(15 downto 0);
+signal wayOutputMRU_signal : std_logic;
+
+
+--controller outputs Signal
+signal
+wren0_signnl,wren1_signal,tvwe0_signal,tvwe1_signal,Invalidate1_signal,Invalidate0_signal,outputway_signal ,
+counterReset_signal,readmem_signal,writetomem_signal : std_logic;
+
+--memory signal
+signal memInOut : std_logic_vector(15 downto 0);
+signal writemem_signal,memdataready_signal : std_logic;
+
+begin
+
+Control : CacheController port map(clk,read,write,memdataready_signal,hit_signal,w0_valid_signal
+,w1_valid_signal,tag_valid0_signal,tag_valid1_signal,wayOutputMRU_signal,wren0_signnl,wren1_signal,
+tvwe0_signal,tvwe1_signal,Invalidate0_signal,Invalidate1_signal,outputway_signal ,
+counterReset_signal,readmem_signal,writemem_signal);
+
+Cache : MainCache port map(clk,reset_n,counterReset_signal,outputway_signal,write,writetomem_signal,
+wren0_signnl,wren1_signal,
+tvwe0_signal,tvwe1_signal,Invalidate0_signal,Invalidate1_signal,--adreess ,
+addressBus,memInOut--wrdata,
+, w0_valid_signal,w1_valid_signal,tag_valid0_signal,tag_valid1_signal,wayOutputMRU_signal
+,outdata_signal,hit_signal);
+
+Mem : Memory port map (clk ,readmem_signal,writemem_signal,addressBus,datain,memInOut,memdataready_signal );
+--wrdata <= memInOut;
+memInOut <= datain when read = '1' and write ='0' else datain when write='1' else "ZZZZZZZZZZZZZZZZ";
+dataout <= outdata_signal when hit_signal='1' else memInOut when hit_signal='0'
+else "ZZZZZZZZZZZZZZZZ";
+
+end architecture;

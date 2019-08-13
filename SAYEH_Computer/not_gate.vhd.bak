@@ -1,0 +1,20 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+
+
+entity not_gate is
+  port (
+  A:in STD_LOGIC_VECTOR(15 downto 0);
+  B:in STD_LOGIC_VECTOR(15 downto 0)
+  );
+end entity;
+
+architecture arch of not_gate is
+
+begin
+  
+  B <= not (A);
+end architecture;
+

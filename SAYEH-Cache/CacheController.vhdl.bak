@@ -1,0 +1,135 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity CacheController is port(
+  clk : in std_logic;
+  read : in std_logic;
+  write : in std_logic;
+  memdataready : in std_logic;
+  hit : in std_logic;
+  w0_valid : in std_logic;
+  w1_valid : in std_logic;
+  tva0valid : in std_logic;
+  tva1valid : in std_logic;
+  wFromMRU : in std_logic;
+--nima
+
+  dwriteEnable0 : out std_logic;
+  dwriteEnable1 : out std_logic;
+  tvwriteEnable0 : out std_logic;
+  tvwriteEnable1 : out std_logic;
+  invalidate0 : out std_logic;
+  invalidate1 : out std_logic;
+  selectWay : out std_logic;
+  resetCounter : out std_logic;
+
+  readMem : out std_logic;
+  writeMem : out std_logic
+  );
+end entity;
+
+architecture arch of CacheController is
+
+type state is (s0_reset , s1_read , s2_write , s3_missed ,s4_replace);
+signal currrentState : state;
+signal nextState : state;
+
+--signal savePreviousCache : std_logic := '0';
+begin
+
+process (clk)
+begin
+  if (clk = '1') then
+    currrentState <= nextState;
+  end if;
+end process;
+
+process (currrentState)
+begin
+  dwriteEnable0 <= '0';
+  dwriteEnable1 <= '0';
+  tvwriteEnable0 <= '0';
+  tvwriteEnable1 <= '0';
+  invalidate0 <= '0';
+  invalidate1 <= '0';
+  readmem <= '0';
+  writemem <= '0';
+
+  selectWay <= '0';
+  resetCounter <= '0';
+
+  case currrentState is
+
+    when s0_reset =>
+    if(read = '1') then
+        nextState <= s1_read;
+
+    elsif (write = '1') then
+      writeMem <= '1';
+      nextState <= s2_write;
+    else
+      nextState <= s0_reset;
+    end if;
+
+    when s2_write   =>
+      if(w0_valid = '1') then
+        invalidate0 <= '1';
+        tvwriteEnable0 <= '1';
+      end if;
+      if(w1_valid = '1') then
+        invalidate1 <= '1';
+        tvwriteEnable1 <= '1';
+      end if;
+      nextState <= s0_reset;
+
+    when s1_read =>
+      if(hit = '1') then
+        if(w0_valid = '1') then
+        -- kasra ye chzzi goft amade bashe bad w ro negah kone
+          selectWay <= '0';
+        elsif (w1_valid = '1') then
+          selectWay <= '1';
+        end if;
+        nextState <= s0_reset;
+      else
+        readMem <= '1';
+        nextState <= s3_missed;
+      end if;
+
+    when s3_missed =>
+      readMem <= '1';
+      nextState <= s4_replace;
+
+    --when WAITING =>
+     -- readMem <= '1';
+      --nextState <= WRITEtoCache;
+--ss
+    when s4_replace =>
+      --readMem <= '1';
+      if(tva0valid = '0') then
+        dwriteEnable0 <= '1'; -- inja data va tag ra dar chache taghir midahim yani enableash mikonim
+        tvwriteEnable0 <= '1';
+        invalidate0 <= '0';
+      elsif (tva1valid = '0') then
+        dwriteEnable1 <= '1';
+        tvwriteEnable1 <= '1';
+        invalidate0 <= '0';
+      elsif (tva0valid = '1' and tva1valid = '1') then
+        if(wFromMRU = '0') then
+          dwriteEnable0 <= '1';
+          tvwriteEnable0 <= '1';
+        else
+          dwriteEnable1 <= '1';
+          tvwriteEnable1 <= '1';
+        end if;
+      end if;
+      resetCounter <= '1';
+      nextState <= s0_reset;
+
+   -- when Others =>
+
+  end case;
+end process;
+
+end architecture;
